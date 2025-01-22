@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "30b774bf26c93e07",
+    "type": "split",
+    "children": [
+      {
+        "id": "722499f1ba09b428",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9f578d328aeea93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCI 448.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSCI 448"
+            }
+          },
+          {
+            "id": "9b697e13b85286d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "448 1.21.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "448 1.21"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e19ada0d86fd5de",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fbf40d6caf032ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30a388740a54f2fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fa9740dd6b08be59",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "252b0777324ac8cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ce8d5ad7fac00d94",
+    "type": "split",
+    "children": [
+      {
+        "id": "10ca640ebe6a4a77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f6d06eb04956f97",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "448 1.21.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 448 1.21"
+            }
+          },
+          {
+            "id": "3390328ab681f130",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "448 1.21.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 448 1.21"
+            }
+          },
+          {
+            "id": "4d8d6aa8e7609611",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1e3f32b5e92347f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "448 1.21.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 448 1.21"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9b697e13b85286d6",
+  "lastOpenFiles": [
+    "CSCI 448.md",
+    "448 1.21.md",
+    "Math314.md",
+    "314 01.21.25.md",
+    "CSCI 315.md",
+    "create a link.md",
+    "Welcome.md"
+  ]
+}
