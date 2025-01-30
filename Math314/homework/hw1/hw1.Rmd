@@ -1,0 +1,76 @@
+---
+title: "Homework1"
+output:
+  pdf_document: default
+  html_document: default
+date: "2025-01-27"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Discord Introduction:
+
+![](discordIntro.png)
+
+## Data Description:
+
+This analysis is done using the built in "ToothGrowth" dataset provided with R. This dataset is the result of experiment done on guinea pigs in which they were administered vitamins. The goal of the experiment's goal was to determine the effects of administering vitamin c with two different administration methods on guinea pig tooth growth. The dataset contains the "len" variable which tracks the length of the tooth of the guinea pig in cm, "supp" which tracks if the vitamin c was in the form of orange juice or absorbic acid, and "dose" which tracks the exact vitamin c dosage in mg/day. This dataset comes standard with r and can also be located at [[<https://rpubs.com/DragonflyStats/Toothgrowth-Dataset>]].
+
+```{r growth, echo=FALSE}
+data("ToothGrowth") 
+head(ToothGrowth)
+```
+
+## Plotting vitamin c dosage versus tooth length
+
+```{r plotting, echo=FALSE}
+suppressMessages(library(ggplot2))
+ggplot(data=ToothGrowth, aes(len, dose)) +
+geom_point()
+```
+
+## In depth analysis (summary statistics):
+
+Following is an analysis of the mean, median, standard deviation, and IQR of the examined variables
+
+### Variable analysis: length
+
+```{r len, echo=FALSE}
+mean(ToothGrowth$len)
+median(ToothGrowth$len)
+sd(ToothGrowth$len)
+IQR(ToothGrowth$len)
+```
+
+### Variable analysis: dose
+
+```{r dose, echo=FALSE}
+mean(ToothGrowth$dose)
+median(ToothGrowth$dose)
+sd(ToothGrowth$dose)
+IQR(ToothGrowth$dose)
+```
+
+### Discussion of Findings:
+
+#### Length:
+
+Mean: this represent that the average length of a guinea pig tooth in the dataset is 18.81cm.
+
+Median: represents that the "middle number" in the tooth length of the guinea pigs is 19.25cm.
+
+Standard Deviation: the standard deviation coming in at 7.65cm shows a high variance in the tooth length of the guinea pigs.
+
+IQR: IQR coming in at 12.2 shows that the middle portion of the data is quite spread out, given that the average is 19.25cm.
+
+#### Dose:
+
+Mean: this represent that the average dose of vitamin c is 1.17mg.
+
+Median: represents that the middle dose in the study is 1mg.
+
+Standard Deviation: the standard deviation coming in at 0.63mg shows that the doses are somewhat uniform (low variance) across the board.
+
+IQR: IQR coming in at 1.5 shows that the middle quartiles of the data were given 1.5mg of vitamin c.

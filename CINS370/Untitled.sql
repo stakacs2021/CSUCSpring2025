@@ -1,0 +1,17 @@
+CREATE TABLE Laptop (
+model VARCHAR(30) PRIMARY KEY, 
+speed INT,
+hd VARCHAR(10),
+screen VARCHAR(30),
+price INT
+);
+
+CREATE TABLE Laptop (
+model VARCHAR(30) PRIMARY KEY, 
+color VARCHAR(10),
+type VARCHAR(30),
+price INT
+);
+
+ALTER TABLE Printer DROP COLOR;
+ALTER TABLE Laptop ADD od VARCHAR (30) DEFAULT 'none';
